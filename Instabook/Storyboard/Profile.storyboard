@@ -20,7 +20,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2Jk-U4-Ze0"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4LN-Tx-jfb"/>
+                    <navigationItem key="navigationItem" id="4LN-Tx-jfb">
+                        <barButtonItem key="rightBarButtonItem" image="notif" id="4AJ-mb-3Gw"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TpT-oB-ZiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -51,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="notif" width="24" height="27"/>
         <image name="profile" width="25" height="25"/>
     </resources>
 </document>
