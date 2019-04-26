@@ -20,10 +20,10 @@
                     </tabBar>
                     <connections>
                         <outlet property="delegate" destination="lmU-BG-xin" id="aaQ-NM-FNn"/>
-                        <segue destination="Zv8-py-lQR" kind="relationship" relationship="viewControllers" id="sa0-a9-BIe"/>
-                        <segue destination="f8L-U1-Z4j" kind="relationship" relationship="viewControllers" id="tCs-uZ-SgU"/>
-                        <segue destination="TkV-Nz-Pjr" kind="relationship" relationship="viewControllers" id="nWg-r2-HUM"/>
-                        <segue destination="Hbm-U2-Wmy" kind="relationship" relationship="viewControllers" id="GGF-7n-lSG"/>
+                        <segue destination="Zv8-py-lQR" kind="relationship" relationship="viewControllers" id="uuL-F8-AlD"/>
+                        <segue destination="f8L-U1-Z4j" kind="relationship" relationship="viewControllers" id="rqt-zQ-7Xj"/>
+                        <segue destination="TkV-Nz-Pjr" kind="relationship" relationship="viewControllers" id="3a6-H9-yUC"/>
+                        <segue destination="Hbm-U2-Wmy" kind="relationship" relationship="viewControllers" id="vlR-iM-xp7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOy-C1-FYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,7 +69,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsi-Jj-QYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="228" y="74"/>
+            <point key="canvasLocation" x="-394" y="392"/>
         </scene>
     </scenes>
 </document>
