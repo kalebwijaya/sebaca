@@ -82,7 +82,7 @@
                                                         <rect key="frame" x="262" y="400" width="45" height="35"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <state key="normal" image="save">
+                                                        <state key="normal">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -188,6 +188,5 @@
         <image name="home" width="25" height="25"/>
         <image name="notif" width="24" height="27"/>
         <image name="profileImage" width="276" height="280"/>
-        <image name="save" width="25" height="25"/>
     </resources>
 </document>
