@@ -23,6 +23,7 @@
 		5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE202271D5FD006FA0E9 /* TabBarController.swift */; };
 		5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE222271DE42006FA0E9 /* AnimUtils.swift */; };
 		5183DE252271E9D6006FA0E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE242271E9D6006FA0E9 /* HomeViewController.swift */; };
+		B903850B227327BE000EC76C /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903850A227327BE000EC76C /* BookDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5183DE202271D5FD006FA0E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5183DE222271DE42006FA0E9 /* AnimUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimUtils.swift; sourceTree = "<group>"; };
 		5183DE242271E9D6006FA0E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B903850A227327BE000EC76C /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				5183DE202271D5FD006FA0E9 /* TabBarController.swift */,
 				5183DE242271E9D6006FA0E9 /* HomeViewController.swift */,
+				B903850A227327BE000EC76C /* BookDetailController.swift */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */,
+				B903850B227327BE000EC76C /* BookDetailController.swift in Sources */,
 				5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
