@@ -59,7 +59,7 @@ extension HomeViewController: iCarouselDelegate, iCarouselDataSource {
         
         var imageView: UIImageView!
         if view == nil {
-            imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 200))
+            imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 220))
             imageView.contentMode = .scaleAspectFit
         } else {
             imageView = view as? UIImageView
