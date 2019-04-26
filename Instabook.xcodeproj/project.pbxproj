@@ -10,16 +10,13 @@
 		515B6DD02272E80200439D38 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DCF2272E80200439D38 /* FeedView.swift */; };
 		515B6DD52272F59700439D38 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DD42272F59700439D38 /* iCarousel.m */; };
 		515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DD62273050900439D38 /* BookDetail.storyboard */; };
+		515B6DE32273170D00439D38 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DE22273170D00439D38 /* Home.storyboard */; };
 		5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DDE02271A97B006FA0E9 /* AppDelegate.swift */; };
 		5183DDE62271A97B006FA0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DDE42271A97B006FA0E9 /* Main.storyboard */; };
 		5183DDE82271A97C006FA0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5183DDE72271A97C006FA0E9 /* Assets.xcassets */; };
 		5183DDEB2271A97C006FA0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DDE92271A97C006FA0E9 /* LaunchScreen.storyboard */; };
 		5183DDF62271A97C006FA0E9 /* InstabookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DDF52271A97C006FA0E9 /* InstabookTests.swift */; };
 		5183DE012271A97C006FA0E9 /* InstabookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE002271A97C006FA0E9 /* InstabookUITests.swift */; };
-		5183DE112271AEB6006FA0E9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DE102271AEB6006FA0E9 /* Home.storyboard */; };
-		5183DE152271AEE8006FA0E9 /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DE132271AEE8006FA0E9 /* People.storyboard */; };
-		5183DE172271AF1D006FA0E9 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DE162271AF1D006FA0E9 /* Search.storyboard */; };
-		5183DE1A2271AF2C006FA0E9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5183DE182271AF2C006FA0E9 /* Profile.storyboard */; };
 		5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE202271D5FD006FA0E9 /* TabBarController.swift */; };
 		5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE222271DE42006FA0E9 /* AnimUtils.swift */; };
 		5183DE252271E9D6006FA0E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE242271E9D6006FA0E9 /* HomeViewController.swift */; };
@@ -48,6 +45,7 @@
 		515B6DD32272F59700439D38 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		515B6DD42272F59700439D38 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		515B6DD62273050900439D38 /* BookDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookDetail.storyboard; sourceTree = "<group>"; };
+		515B6DE22273170D00439D38 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		5183DDDD2271A97B006FA0E9 /* Instabook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instabook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5183DDE02271A97B006FA0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5183DDE52271A97B006FA0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,10 +58,6 @@
 		5183DDFC2271A97C006FA0E9 /* InstabookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstabookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5183DE002271A97C006FA0E9 /* InstabookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstabookUITests.swift; sourceTree = "<group>"; };
 		5183DE022271A97C006FA0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5183DE102271AEB6006FA0E9 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		5183DE142271AEE8006FA0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Instabook/Storyboard/Base.lproj/People.storyboard; sourceTree = "<group>"; };
-		5183DE162271AF1D006FA0E9 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
-		5183DE192271AF2C006FA0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Instabook/Storyboard/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		5183DE202271D5FD006FA0E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5183DE222271DE42006FA0E9 /* AnimUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimUtils.swift; sourceTree = "<group>"; };
 		5183DE242271E9D6006FA0E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -162,11 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				5183DDE42271A97B006FA0E9 /* Main.storyboard */,
-				5183DE102271AEB6006FA0E9 /* Home.storyboard */,
-				5183DE132271AEE8006FA0E9 /* People.storyboard */,
-				5183DE162271AF1D006FA0E9 /* Search.storyboard */,
-				5183DE182271AF2C006FA0E9 /* Profile.storyboard */,
 				515B6DD62273050900439D38 /* BookDetail.storyboard */,
+				515B6DE22273170D00439D38 /* Home.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -286,13 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5183DDEB2271A97C006FA0E9 /* LaunchScreen.storyboard in Resources */,
+				515B6DE32273170D00439D38 /* Home.storyboard in Resources */,
 				5183DDE82271A97C006FA0E9 /* Assets.xcassets in Resources */,
 				515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */,
-				5183DE152271AEE8006FA0E9 /* People.storyboard in Resources */,
 				5183DDE62271A97B006FA0E9 /* Main.storyboard in Resources */,
-				5183DE172271AF1D006FA0E9 /* Search.storyboard in Resources */,
-				5183DE1A2271AF2C006FA0E9 /* Profile.storyboard in Resources */,
-				5183DE112271AEB6006FA0E9 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,22 +360,6 @@
 				5183DDEA2271A97C006FA0E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		5183DE132271AEE8006FA0E9 /* People.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5183DE142271AEE8006FA0E9 /* Base */,
-			);
-			name = People.storyboard;
-			sourceTree = "<group>";
-		};
-		5183DE182271AF2C006FA0E9 /* Profile.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5183DE192271AF2C006FA0E9 /* Base */,
-			);
-			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
