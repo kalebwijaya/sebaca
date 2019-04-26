@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,13 +24,29 @@
                         <segue destination="Zv8-py-lQR" kind="relationship" relationship="viewControllers" id="sa0-a9-BIe"/>
                         <segue destination="f8L-U1-Z4j" kind="relationship" relationship="viewControllers" id="tCs-uZ-SgU"/>
                         <segue destination="TkV-Nz-Pjr" kind="relationship" relationship="viewControllers" id="nWg-r2-HUM"/>
-                        <segue destination="Hbm-U2-Wmy" kind="relationship" relationship="viewControllers" id="GGF-7n-lSG"/>
+                        <segue destination="PoF-4M-86r" kind="relationship" relationship="viewControllers" id="GGF-7n-lSG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KOy-C1-FYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="lmU-BG-xin" customClass="AnimUtils" customModule="Instabook" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="-643" y="-25"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="t3u-5K-ebg">
+            <objects>
+                <viewController title="Profile" id="PoF-4M-86r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c1E-MU-hJm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2Jk-U4-Ze0"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QGO-vf-Oqa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TpT-oB-ZiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="74"/>
         </scene>
         <!--Home-->
         <scene sceneID="uYb-x6-flN">
@@ -60,16 +77,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVb-vZ-Cbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-537" y="392"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="aWS-0u-8ES">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="Hbm-U2-Wmy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="rAw-Gp-Esf"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qsi-Jj-QYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="228" y="74"/>
         </scene>
     </scenes>
 </document>
