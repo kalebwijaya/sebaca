@@ -11,14 +11,21 @@ import UIKit
 class HomeViewController: UIViewController {
     
     
+    @IBOutlet weak var bookCaption: UILabel!
+    @IBOutlet weak var totalRead: UILabel!
     @IBOutlet weak var iCarouselView: iCarousel!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var haveReadBtn: UIButton!
     @IBOutlet weak var saveBtn: UIButton!
     
+    var imageIndex = 0
+    
     var imgArr = [  UIImage(named:"book1"),
                     UIImage(named:"book2") ,
                     UIImage(named:"book3")]
+    
+    var captionArr = ["Overall recommended. Great insight! Inspiring!","This book need more attention","Please read this book and your welcome"]
+    var readArr = ["214 peoples", "121 peoples", "187 peoples"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +58,7 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: iCarouselDelegate, iCarouselDataSource {
+    
     func numberOfItems(in carousel: iCarousel) -> Int {
         return imgArr.count
     }
@@ -64,9 +72,14 @@ extension HomeViewController: iCarouselDelegate, iCarouselDataSource {
         } else {
             imageView = view as? UIImageView
         }
-        
+        imageIndex = index
         imageView.image = imgArr[index]
         return imageView
+    }
+    
+    func carouselDidScroll(_ carousel: iCarousel) {
+        bookCaption.text = captionArr[carousel.currentItemIndex]
+        totalRead.text = readArr[carousel.currentItemIndex]
     }
 }
 

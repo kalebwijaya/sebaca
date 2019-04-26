@@ -130,8 +130,8 @@
 		5183DDDF2271A97B006FA0E9 /* Instabook */ = {
 			isa = PBXGroup;
 			children = (
-				5183DE122271AEC7006FA0E9 /* Storyboard */,
 				5183DDE02271A97B006FA0E9 /* AppDelegate.swift */,
+				5183DE122271AEC7006FA0E9 /* Storyboard */,
 				515B6DD12272E80B00439D38 /* UIView */,
 				5183DE1F2271D596006FA0E9 /* TabBarController */,
 				5183DDE72271A97C006FA0E9 /* Assets.xcassets */,
