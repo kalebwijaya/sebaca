@@ -10,13 +10,21 @@ import UIKit
 
 class BookDetailController: UIViewController {
     
+    @IBOutlet weak var ratingValue: UILabel!
+    @IBOutlet weak var authorName: UILabel!
+    @IBOutlet weak var authorImage: UIImageView!
     @IBOutlet weak var segmentedControllerSummaryReviews: UISegmentedControl!
     @IBOutlet weak var viewSummary: UIView!
     @IBOutlet weak var viewReviews: UIView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        viewReviews.isHidden = true
+        viewSummary.isHidden = false
+        
+        authorImage.layer.cornerRadius = authorImage.frame.size.width/2
         // Do any additional setup after loading the view.
     }
     
