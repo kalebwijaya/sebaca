@@ -9,16 +9,40 @@
 import UIKit
 
 class BookDetailController: UIViewController {
-
+    
+    @IBOutlet weak var segmentedControllerSummaryReviews: UISegmentedControl!
+    @IBOutlet weak var viewSummary: UIView!
+    @IBOutlet weak var viewReviews: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func segmentedControllSummaryReviewsTapped(_ sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
+        case 0:
+            viewReviews.isHidden = true
+            viewSummary.isHidden = false
+            break;
+        case 1:
+            viewReviews.isHidden = false
+            viewSummary.isHidden = true
+            break;
+        default:
+            viewReviews.isHidden = true
+            viewSummary.isHidden = false
+            break;
+            
+        }
+    }
+    
+    
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
