@@ -73,7 +73,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="7B8-Xp-i27" kind="show" id="p9h-bM-B1G"/>
+                                                            <segue destination="7B8-Xp-i27" kind="show" identifier="toBookDetail" id="p9h-bM-B1G"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgZ-bi-OOP">

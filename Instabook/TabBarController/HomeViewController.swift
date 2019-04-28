@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class HomeViewController: UIViewController, UITextFieldDelegate {
     
@@ -20,9 +21,11 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
     
     var imageIndex = 0
     
-    var imgArr = [  UIImage(named:"book1"),
-                    UIImage(named:"book2") ,
-                    UIImage(named:"book3")]
+    var imgArr = [  UIImage(named:"book0"),
+                    UIImage(named:"book1") ,
+                    UIImage(named:"book2")]
+    
+    var books = [Books]()
     
     var captionArr = ["Overall recommended. Great insight! Inspiring!","This book need more attention","Please read this book and your welcome"]
     var readArr = ["214 peoples", "121 peoples", "187 peoples"]
@@ -32,6 +35,7 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         self.hideKeyboardWhenTappedAround() 
         self.commentField.delegate = self
         
+//        comment right icon
 //        let rightImage = UIImageView(frame:CGRect( x:0,y:0, width:20, height:20))
 //        rightImage.image = UIImage(named:"comment")
 //        commentField.rightView = rightImage
@@ -52,7 +56,17 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         iCarouselView.type = .rotary
         iCarouselView.contentMode = .scaleAspectFill
         iCarouselView.isPagingEnabled = true
-        // Do any additional setup after loading the view.
+        
+//      Fetch data from core data
+        let fetchRequest:NSFetchRequest<Books> = Books.fetchRequest()
+        do {
+            let books = try PresistnceService.context.fetch(fetchRequest)
+            self.books = books
+            for i in 0...books.count{
+                self.imgArr.append(UIImage(named: "book"+"\(i)"))
+            }
+        } catch {
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -99,12 +113,12 @@ extension HomeViewController: iCarouselDelegate, iCarouselDataSource {
         } else {
             imageView = view as? UIImageView
         }
-        imageIndex = index
         imageView.image = imgArr[index]
         return imageView
     }
     
     func carouselDidScroll(_ carousel: iCarousel) {
+        imageIndex = carousel.currentItemIndex
         bookCaption.text = captionArr[carousel.currentItemIndex]
         totalRead.text = readArr[carousel.currentItemIndex]
     }

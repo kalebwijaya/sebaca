@@ -58,7 +58,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book1" translatesAutoresizingMaskIntoConstraints="NO" id="nOl-EU-eMA">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book0" translatesAutoresizingMaskIntoConstraints="NO" id="nOl-EU-eMA">
                                                         <rect key="frame" x="143" y="41" width="129" height="192"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
@@ -322,7 +322,7 @@ Hollows</string>
     </scenes>
     <resources>
         <image name="author1" width="360" height="362"/>
-        <image name="book1" width="300" height="457"/>
+        <image name="book0" width="300" height="457"/>
         <image name="bookDetail1" width="414" height="363"/>
         <image name="rating" width="26" height="19"/>
     </resources>

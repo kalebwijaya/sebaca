@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513599C322760B7E00AC8DF9 /* Sebaca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */; };
+		513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513599CA22760EA500AC8DF9 /* PresistenceService.swift */; };
+		51359A0D2276158700AC8DF9 /* Books+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */; };
+		51359A0E2276158700AC8DF9 /* Books+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */; };
 		515B6DD02272E80200439D38 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DCF2272E80200439D38 /* FeedView.swift */; };
 		515B6DD52272F59700439D38 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DD42272F59700439D38 /* iCarousel.m */; };
 		515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DD62273050900439D38 /* BookDetail.storyboard */; };
@@ -44,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sebaca.xcdatamodel; sourceTree = "<group>"; };
+		513599CA22760EA500AC8DF9 /* PresistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresistenceService.swift; sourceTree = "<group>"; };
+		51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		515B6DCF2272E80200439D38 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		515B6DD22272F59600439D38 /* Instabook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instabook-Bridging-Header.h"; sourceTree = "<group>"; };
 		515B6DD32272F59700439D38 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -96,6 +104,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		513599C822760CDF00AC8DF9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */,
+				51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */,
+				5183DE222271DE42006FA0E9 /* AnimUtils.swift */,
+				513599CA22760EA500AC8DF9 /* PresistenceService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		513599C922760CF700AC8DF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */,
+				5183DDE72271A97C006FA0E9 /* Assets.xcassets */,
+				5183DDE92271A97C006FA0E9 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		515B6DD12272E80B00439D38 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,10 +163,9 @@
 				5183DE122271AEC7006FA0E9 /* Storyboard */,
 				515B6DD12272E80B00439D38 /* UIView */,
 				5183DE1F2271D596006FA0E9 /* TabBarController */,
-				5183DDE72271A97C006FA0E9 /* Assets.xcassets */,
-				5183DDE92271A97C006FA0E9 /* LaunchScreen.storyboard */,
+				513599C822760CDF00AC8DF9 /* Data */,
+				513599C922760CF700AC8DF9 /* Resources */,
 				5183DDEC2271A97C006FA0E9 /* Info.plist */,
-				5183DE222271DE42006FA0E9 /* AnimUtils.swift */,
 			);
 			path = Instabook;
 			sourceTree = "<group>";
@@ -322,9 +350,13 @@
 			files = (
 				5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */,
 				B903850B227327BE000EC76C /* BookDetailController.swift in Sources */,
+				51359A0D2276158700AC8DF9 /* Books+CoreDataClass.swift in Sources */,
+				513599C322760B7E00AC8DF9 /* Sebaca.xcdatamodeld in Sources */,
 				5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */,
+				51359A0E2276158700AC8DF9 /* Books+CoreDataProperties.swift in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
+				513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */,
 				515B6DD02272E80200439D38 /* FeedView.swift in Sources */,
 				5183DE252271E9D6006FA0E9 /* HomeViewController.swift in Sources */,
 			);
@@ -668,6 +700,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */,
+			);
+			currentVersion = 513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */;
+			path = Sebaca.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5183DDD52271A97B006FA0E9 /* Project object */;
 }
