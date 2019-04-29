@@ -10,7 +10,6 @@
 		513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513599CA22760EA500AC8DF9 /* PresistenceService.swift */; };
 		515B6DD02272E80200439D38 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DCF2272E80200439D38 /* FeedView.swift */; };
 		515B6DD52272F59700439D38 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DD42272F59700439D38 /* iCarousel.m */; };
-		515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DD62273050900439D38 /* BookDetail.storyboard */; };
 		515B6DE32273170D00439D38 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DE22273170D00439D38 /* Home.storyboard */; };
 		515B6DE62273190800439D38 /* People.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DE42273190800439D38 /* People.storyboard */; };
 		515B6DE82273195600439D38 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DE72273195600439D38 /* Search.storyboard */; };
@@ -27,8 +26,12 @@
 		51B28EEE227720200096AE5B /* CommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EEA227720200096AE5B /* CommentViewCell.swift */; };
 		51B28EEF227720200096AE5B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EEB227720200096AE5B /* Comment.swift */; };
 		51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EF1227720C30096AE5B /* sebaca.xcdatamodeld */; };
-		51B28EF9227722A50096AE5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EF8227722A50096AE5B /* HomeViewController.swift */; };
-		B903850B227327BE000EC76C /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903850A227327BE000EC76C /* BookDetailController.swift */; };
+		B938931C22772513003E581D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938931A22772513003E581D /* Review.swift */; };
+		B938931D22772513003E581D /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938931B22772513003E581D /* ReviewCell.swift */; };
+		B938931F2277254A003E581D /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938931E2277254A003E581D /* BookDetailController.swift */; };
+		B93893212277258B003E581D /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93893202277258B003E581D /* BookDetail.storyboard */; };
+		B93893242277272B003E581D /* AddReviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93893232277272B003E581D /* AddReviewSection.swift */; };
+		B938932622772764003E581D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938932522772764003E581D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +57,6 @@
 		515B6DD22272F59600439D38 /* Instabook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instabook-Bridging-Header.h"; sourceTree = "<group>"; };
 		515B6DD32272F59700439D38 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		515B6DD42272F59700439D38 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
-		515B6DD62273050900439D38 /* BookDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookDetail.storyboard; sourceTree = "<group>"; };
 		515B6DE22273170D00439D38 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		515B6DE52273190800439D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Instabook/Storyboard/Base.lproj/People.storyboard; sourceTree = "<group>"; };
 		515B6DE72273195600439D38 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
@@ -77,8 +79,12 @@
 		51B28EEA227720200096AE5B /* CommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewCell.swift; sourceTree = "<group>"; };
 		51B28EEB227720200096AE5B /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		51B28EF2227720C30096AE5B /* sebaca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sebaca.xcdatamodel; sourceTree = "<group>"; };
-		51B28EF8227722A50096AE5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../../../Downloads/sebaca-master/Instabook/TabBarController/Home/HomeViewController.swift"; sourceTree = "<group>"; };
-		B903850A227327BE000EC76C /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
+		B938931A22772513003E581D /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Review.swift; path = ../../../../../BACKUP/sebaca/Instabook/TabBarController/Review.swift; sourceTree = "<group>"; };
+		B938931B22772513003E581D /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewCell.swift; path = ../../../../../BACKUP/sebaca/Instabook/TabBarController/ReviewCell.swift; sourceTree = "<group>"; };
+		B938931E2277254A003E581D /* BookDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookDetailController.swift; path = ../../../../../BACKUP/sebaca/Instabook/TabBarController/BookDetailController.swift; sourceTree = "<group>"; };
+		B93893202277258B003E581D /* BookDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BookDetail.storyboard; path = ../../../../BACKUP/sebaca/Instabook/Storyboard/BookDetail.storyboard; sourceTree = "<group>"; };
+		B93893232277272B003E581D /* AddReviewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddReviewSection.swift; path = ../../../../BACKUP/sebaca/Instabook/UIView/AddReviewSection.swift; sourceTree = "<group>"; };
+		B938932522772764003E581D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 				515B6DD42272F59700439D38 /* iCarousel.m */,
 				515B6DCF2272E80200439D38 /* FeedView.swift */,
 				515B6DD22272F59600439D38 /* Instabook-Bridging-Header.h */,
+				B93893232277272B003E581D /* AddReviewSection.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -196,7 +203,7 @@
 				515B6DE42273190800439D38 /* People.storyboard */,
 				515B6DE72273195600439D38 /* Search.storyboard */,
 				515B6DEC227319B900439D38 /* Profile.storyboard */,
-				515B6DD62273050900439D38 /* BookDetail.storyboard */,
+				B93893202277258B003E581D /* BookDetail.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -207,7 +214,6 @@
 				B93893192277242D003E581D /* Book Detail */,
 				51B28EF4227722990096AE5B /* Home */,
 				5183DE202271D5FD006FA0E9 /* TabBarController.swift */,
-				B903850A227327BE000EC76C /* BookDetailController.swift */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -218,7 +224,7 @@
 				51B28EEB227720200096AE5B /* Comment.swift */,
 				51B28EEA227720200096AE5B /* CommentViewCell.swift */,
 				51B28EE9227720200096AE5B /* CommentViewController.swift */,
-				51B28EF8227722A50096AE5B /* HomeViewController.swift */,
+				B938932522772764003E581D /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,6 +232,9 @@
 		B93893192277242D003E581D /* Book Detail */ = {
 			isa = PBXGroup;
 			children = (
+				B938931A22772513003E581D /* Review.swift */,
+				B938931B22772513003E581D /* ReviewCell.swift */,
+				B938931E2277254A003E581D /* BookDetailController.swift */,
 			);
 			path = "Book Detail";
 			sourceTree = "<group>";
@@ -337,11 +346,11 @@
 			files = (
 				5183DDEB2271A97C006FA0E9 /* LaunchScreen.storyboard in Resources */,
 				515B6DE32273170D00439D38 /* Home.storyboard in Resources */,
+				B93893212277258B003E581D /* BookDetail.storyboard in Resources */,
 				515B6DED227319B900439D38 /* Profile.storyboard in Resources */,
 				5183DDE82271A97C006FA0E9 /* Assets.xcassets in Resources */,
 				515B6DE62273190800439D38 /* People.storyboard in Resources */,
 				515B6DE82273195600439D38 /* Search.storyboard in Resources */,
-				515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */,
 				5183DDE62271A97B006FA0E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,17 +377,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B28EEE227720200096AE5B /* CommentViewCell.swift in Sources */,
+				B938931F2277254A003E581D /* BookDetailController.swift in Sources */,
 				51B28EED227720200096AE5B /* CommentViewController.swift in Sources */,
 				5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */,
-				B903850B227327BE000EC76C /* BookDetailController.swift in Sources */,
-				51B28EF9227722A50096AE5B /* HomeViewController.swift in Sources */,
 				5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */,
+				B938932622772764003E581D /* HomeViewController.swift in Sources */,
 				51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
+				B938931C22772513003E581D /* Review.swift in Sources */,
 				51B28EEF227720200096AE5B /* Comment.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
 				513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */,
 				515B6DD02272E80200439D38 /* FeedView.swift in Sources */,
+				B93893242277272B003E581D /* AddReviewSection.swift in Sources */,
+				B938931D22772513003E581D /* ReviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
