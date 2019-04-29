@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		513599C322760B7E00AC8DF9 /* Sebaca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */; };
 		513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513599CA22760EA500AC8DF9 /* PresistenceService.swift */; };
-		51359A0D2276158700AC8DF9 /* Books+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */; };
-		51359A0E2276158700AC8DF9 /* Books+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */; };
 		515B6DD02272E80200439D38 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DCF2272E80200439D38 /* FeedView.swift */; };
 		515B6DD52272F59700439D38 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DD42272F59700439D38 /* iCarousel.m */; };
 		515B6DD72273050900439D38 /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DD62273050900439D38 /* BookDetail.storyboard */; };
@@ -26,7 +23,11 @@
 		5183DE012271A97C006FA0E9 /* InstabookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE002271A97C006FA0E9 /* InstabookUITests.swift */; };
 		5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE202271D5FD006FA0E9 /* TabBarController.swift */; };
 		5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE222271DE42006FA0E9 /* AnimUtils.swift */; };
-		5183DE252271E9D6006FA0E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5183DE242271E9D6006FA0E9 /* HomeViewController.swift */; };
+		51B28EED227720200096AE5B /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EE9227720200096AE5B /* CommentViewController.swift */; };
+		51B28EEE227720200096AE5B /* CommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EEA227720200096AE5B /* CommentViewCell.swift */; };
+		51B28EEF227720200096AE5B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EEB227720200096AE5B /* Comment.swift */; };
+		51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EF1227720C30096AE5B /* sebaca.xcdatamodeld */; };
+		51B28EF9227722A50096AE5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B28EF8227722A50096AE5B /* HomeViewController.swift */; };
 		B903850B227327BE000EC76C /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B903850A227327BE000EC76C /* BookDetailController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sebaca.xcdatamodel; sourceTree = "<group>"; };
 		513599CA22760EA500AC8DF9 /* PresistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresistenceService.swift; sourceTree = "<group>"; };
-		51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataClass.swift"; sourceTree = "<group>"; };
-		51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		515B6DCF2272E80200439D38 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		515B6DD22272F59600439D38 /* Instabook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instabook-Bridging-Header.h"; sourceTree = "<group>"; };
 		515B6DD32272F59700439D38 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -75,7 +73,11 @@
 		5183DE022271A97C006FA0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5183DE202271D5FD006FA0E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5183DE222271DE42006FA0E9 /* AnimUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimUtils.swift; sourceTree = "<group>"; };
-		5183DE242271E9D6006FA0E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		51B28EE9227720200096AE5B /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		51B28EEA227720200096AE5B /* CommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewCell.swift; sourceTree = "<group>"; };
+		51B28EEB227720200096AE5B /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		51B28EF2227720C30096AE5B /* sebaca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sebaca.xcdatamodel; sourceTree = "<group>"; };
+		51B28EF8227722A50096AE5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../../../Downloads/sebaca-master/Instabook/TabBarController/Home/HomeViewController.swift"; sourceTree = "<group>"; };
 		B903850A227327BE000EC76C /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,8 +109,6 @@
 		513599C822760CDF00AC8DF9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				51359A0B2276158700AC8DF9 /* Books+CoreDataClass.swift */,
-				51359A0C2276158700AC8DF9 /* Books+CoreDataProperties.swift */,
 				5183DE222271DE42006FA0E9 /* AnimUtils.swift */,
 				513599CA22760EA500AC8DF9 /* PresistenceService.swift */,
 			);
@@ -118,7 +118,7 @@
 		513599C922760CF700AC8DF9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */,
+				51B28EF1227720C30096AE5B /* sebaca.xcdatamodeld */,
 				5183DDE72271A97C006FA0E9 /* Assets.xcassets */,
 				5183DDE92271A97C006FA0E9 /* LaunchScreen.storyboard */,
 			);
@@ -204,11 +204,22 @@
 		5183DE1F2271D596006FA0E9 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				51B28EF4227722990096AE5B /* Home */,
 				5183DE202271D5FD006FA0E9 /* TabBarController.swift */,
-				5183DE242271E9D6006FA0E9 /* HomeViewController.swift */,
 				B903850A227327BE000EC76C /* BookDetailController.swift */,
 			);
 			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		51B28EF4227722990096AE5B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51B28EEB227720200096AE5B /* Comment.swift */,
+				51B28EEA227720200096AE5B /* CommentViewCell.swift */,
+				51B28EE9227720200096AE5B /* CommentViewController.swift */,
+				51B28EF8227722A50096AE5B /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,17 +359,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B28EEE227720200096AE5B /* CommentViewCell.swift in Sources */,
+				51B28EED227720200096AE5B /* CommentViewController.swift in Sources */,
 				5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */,
 				B903850B227327BE000EC76C /* BookDetailController.swift in Sources */,
-				51359A0D2276158700AC8DF9 /* Books+CoreDataClass.swift in Sources */,
-				513599C322760B7E00AC8DF9 /* Sebaca.xcdatamodeld in Sources */,
+				51B28EF9227722A50096AE5B /* HomeViewController.swift in Sources */,
 				5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */,
-				51359A0E2276158700AC8DF9 /* Books+CoreDataProperties.swift in Sources */,
+				51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
+				51B28EEF227720200096AE5B /* Comment.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
 				513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */,
 				515B6DD02272E80200439D38 /* FeedView.swift in Sources */,
-				5183DE252271E9D6006FA0E9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,13 +714,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		513599C122760B7E00AC8DF9 /* Sebaca.xcdatamodeld */ = {
+		51B28EF1227720C30096AE5B /* sebaca.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */,
+				51B28EF2227720C30096AE5B /* sebaca.xcdatamodel */,
 			);
-			currentVersion = 513599C222760B7E00AC8DF9 /* Sebaca.xcdatamodel */;
-			path = Sebaca.xcdatamodeld;
+			currentVersion = 51B28EF2227720C30096AE5B /* sebaca.xcdatamodel */;
+			path = sebaca.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

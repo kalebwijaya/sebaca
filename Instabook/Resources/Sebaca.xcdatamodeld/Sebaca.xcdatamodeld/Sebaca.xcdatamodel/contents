@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Comments" representedClassName="Comments" syncable="YES">
-        <attribute name="comment" optional="YES" attributeType="String" minValueString="0" syncable="YES"/>
-        <attribute name="likes" optional="YES" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="comment" attributeType="String" minValueString="0" syncable="YES"/>
+        <attribute name="likes" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ueerName" attributeType="String" minValueString="0" syncable="YES"/>
         <attribute name="userID" attributeType="Integer 16" minValueString="0" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="userName" optional="YES" attributeType="String" minValueString="0" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Comments" positionX="-27" positionY="18" width="128" height="105"/>
+        <element name="Comments" positionX="-45" positionY="36" width="128" height="105"/>
     </elements>
 </model>
