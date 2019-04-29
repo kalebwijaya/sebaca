@@ -32,6 +32,7 @@
 		B938932C22772907003E581D /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938932922772907003E581D /* ReviewCell.swift */; };
 		B938932E22772981003E581D /* AddReviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938932D22772981003E581D /* AddReviewSection.swift */; };
 		B93893302277299D003E581D /* BookDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B938932F2277299D003E581D /* BookDetail.storyboard */; };
+		B938933222776334003E581D /* RatingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B938933122776334003E581D /* RatingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		B938932922772907003E581D /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		B938932D22772981003E581D /* AddReviewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewSection.swift; sourceTree = "<group>"; };
 		B938932F2277299D003E581D /* BookDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BookDetail.storyboard; sourceTree = "<group>"; };
+		B938933122776334003E581D /* RatingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 				B938932722772907003E581D /* BookDetailController.swift */,
 				B938932822772907003E581D /* Review.swift */,
 				B938932922772907003E581D /* ReviewCell.swift */,
+				B938933122776334003E581D /* RatingController.swift */,
 			);
 			path = "Book Detail";
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
 				51B28EEF227720200096AE5B /* Comment.swift in Sources */,
+				B938933222776334003E581D /* RatingController.swift in Sources */,
 				B938932B22772907003E581D /* Review.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
 				513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */,

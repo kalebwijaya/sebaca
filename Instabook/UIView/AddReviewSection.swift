@@ -21,8 +21,8 @@ class AddReviewSection: UIView {
     }
     
     func reviewLineEnd(){
-        line.move(to: .init(x:10, y:110))
-        line.addLine(to: .init(x:bounds.width-10, y:110))
+        line.move(to: .init(x:10, y:bounds.height))
+        line.addLine(to: .init(x:bounds.width-10, y:bounds.height))
         #colorLiteral(red: 0.8382847905, green: 0.8433461785, blue: 0.843112886, alpha: 1).setStroke()
         line.stroke()
         line.lineWidth = 1

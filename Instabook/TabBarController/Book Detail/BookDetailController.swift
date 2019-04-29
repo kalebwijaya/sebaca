@@ -17,6 +17,7 @@ class BookDetailController: UIViewController , UITextFieldDelegate{
     @IBOutlet weak var segmentedControllerSummaryReviews: UISegmentedControl!
     @IBOutlet weak var viewSummary: UIView!
     @IBOutlet weak var viewReviews: UIView!
+    @IBOutlet weak var ratingStackView: RatingController!
     @IBOutlet weak var addComment: UITextField!
     @IBOutlet weak var addCommentBtn: UIButton!
     @IBOutlet weak var saveBtn: UIButton!
@@ -25,11 +26,10 @@ class BookDetailController: UIViewController , UITextFieldDelegate{
     
     var reviews : [Review] = []
     
-    var userImageArr = [  #imageLiteral(resourceName: "user0"),
-    #imageLiteral(resourceName: "user1"),
-    #imageLiteral(resourceName: "user2")]
+    var userImageArr = [#imageLiteral(resourceName: "user0"),#imageLiteral(resourceName: "user1"),#imageLiteral(resourceName: "user2")]
     var nameArr = ["Jerome Polin","Maudy Ayunda","Raditya Dika"]
-    var commentArr = ["Mantapu Jiwa, Sukak","This is my favorite book","Inilah buku terbaik menurut gue"]
+    var reviewArr = ["Mantapu Jiwa, Sukak","This is my favorite book","Inilah buku terbaik menurut gue"]
+    var ratingArr = [5,5,5]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,7 +63,8 @@ class BookDetailController: UIViewController , UITextFieldDelegate{
         if(addComment.text != ""){
             nameArr.append("Patrick")
             userImageArr.append(#imageLiteral(resourceName: "profile"))
-            commentArr.append(addComment.text!)
+            reviewArr.append(addComment.text!)
+            ratingArr.append(ratingStackView.starsRating)
             reviews = createArray()
             tableViewReview.reloadData()
         }
@@ -75,7 +76,7 @@ class BookDetailController: UIViewController , UITextFieldDelegate{
         let reviewCount = nameArr.count - 1
         
         for i in 0...reviewCount{
-            tempReviews.append(Review(userImage: userImageArr[i], userName: nameArr[i], userComment: commentArr[i]))
+            tempReviews.append(Review(userImage: userImageArr[i], userName: nameArr[i], userComment: reviewArr[i], userRating: ratingArr[i]))
         }
     
         return  tempReviews

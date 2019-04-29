@@ -13,10 +13,12 @@ class Review {
     var userImage: UIImage
     var userName: String
     var userComment: String
+    var userRating: Int
     
-    init(userImage: UIImage, userName: String, userComment: String){
+    init(userImage: UIImage, userName: String, userComment: String, userRating: Int){
         self.userImage = userImage
         self.userName = userName
         self.userComment = userComment
+        self.userRating = userRating
     }
 }
