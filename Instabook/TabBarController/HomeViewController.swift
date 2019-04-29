@@ -11,9 +11,6 @@ import CoreData
 
 class HomeViewController: UIViewController, UITextFieldDelegate {
     
-   
-    
-    
     @IBOutlet weak var commentField: UITextField!
     @IBOutlet weak var bookCaption: UILabel!
     @IBOutlet weak var totalRead: UILabel!
@@ -28,7 +25,7 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
                     UIImage(named:"book1") ,
                     UIImage(named:"book2")]
     
-//    var books = [Books]()
+    var books = [Books]()
     
     var captionArr = ["Overall recommended. Great insight! Inspiring!","This book need more attention","Please read this book and your welcome"]
     var readArr = ["214 peoples", "121 peoples", "187 peoples"]
@@ -61,15 +58,15 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         iCarouselView.isPagingEnabled = true
         
 //      Fetch data from core data
-//        let fetchRequest:NSFetchRequest<Books> = Books.fetchRequest()
-//        do {
-//            let books = try PresistnceService.context.fetch(fetchRequest)
-//            self.books = books
-//            for i in 0...books.count{
-//                self.imgArr.append(UIImage(named: "book"+"\(i)"))
-//            }
-//        } catch {
-//        }
+        let fetchRequest:NSFetchRequest<Books> = Books.fetchRequest()
+        do {
+            let books = try PresistnceService.context.fetch(fetchRequest)
+            self.books = books
+            for i in 0...books.count{
+                self.imgArr.append(UIImage(named: "book"+"\(i)"))
+            }
+        } catch {
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

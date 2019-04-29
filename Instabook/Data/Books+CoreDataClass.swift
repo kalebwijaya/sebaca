@@ -1,5 +1,5 @@
 //
-//  Comments+CoreDataClass.swift
+//  Books+CoreDataClass.swift
 //  Instabook
 //
 //  Created by Kaleb Wijaya on 29/04/19.
@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-@objc(Comments)
-public class Comments: NSManagedObject {
+
+public class Books: NSManagedObject {
 
 }
