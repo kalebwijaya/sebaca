@@ -204,6 +204,7 @@
 		5183DE1F2271D596006FA0E9 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				B93893192277242D003E581D /* Book Detail */,
 				51B28EF4227722990096AE5B /* Home */,
 				5183DE202271D5FD006FA0E9 /* TabBarController.swift */,
 				B903850A227327BE000EC76C /* BookDetailController.swift */,
@@ -220,6 +221,13 @@
 				51B28EF8227722A50096AE5B /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		B93893192277242D003E581D /* Book Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Book Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
