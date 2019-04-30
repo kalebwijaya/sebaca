@@ -22,8 +22,7 @@ class ReviewCell: UITableViewCell {
     var emptyStar: UIImage = UIImage(named: "starDisabled")!
     
     func setReview(review: Review){
-        let starImageView = UIImageView(image: emptyStar)
-        starImageView.frame = CGRect()
+        let starImageView = UIImageView(image: UIImage(named: "starEnabled"))
         
         userImage.layer.cornerRadius = userImage.frame.size.width/2
         userImage.image = review.userImage
@@ -31,33 +30,5 @@ class ReviewCell: UITableViewCell {
         userComment.text = review.userComment
         userRating.text = String(review.userRating)
         
-        switch review.userRating {
-        case 5:
-            break;
-        case 4:
-            reviewerRatingStars.removeArrangedSubview(self)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 5)
-            break;
-        case 3:
-            reviewerRatingStars.removeArrangedSubview(self)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 5)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 4)
-            break;
-        case 2:
-            reviewerRatingStars.removeArrangedSubview(self)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 5)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 4)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 3)
-            break;
-        case 1:
-            reviewerRatingStars.removeArrangedSubview(self)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 5)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 4)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 3)
-            reviewerRatingStars.insertArrangedSubview(starImageView, at: 2)
-            break;
-        default:
-            break;
-        }
     }
 }

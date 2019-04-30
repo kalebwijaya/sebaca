@@ -45,7 +45,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4A-vO-DEO">
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4A-vO-DEO" customClass="BookmarkButton" customModule="Instabook" customModuleProvider="target">
                                                         <rect key="frame" x="266" y="300" width="45" height="35"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -93,10 +93,6 @@ Hollows</string>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rating" translatesAutoresizingMaskIntoConstraints="NO" id="d4p-7J-dsd">
-                                                                <rect key="frame" x="364" y="12" width="42" height="53"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            </imageView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </view>
@@ -226,7 +222,7 @@ Hollows</string>
                                                                             <rect key="frame" x="20" y="10" width="60" height="60"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         </imageView>
-                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va3-BU-cK2">
+                                                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Va3-BU-cK2" customClass="FollowButton" customModule="Instabook" customModuleProvider="target">
                                                                             <rect key="frame" x="94" y="40" width="131" height="24"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <color key="backgroundColor" red="0.32529449459999998" green="0.56997799869999999" blue="0.84317117929999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -253,39 +249,21 @@ Hollows</string>
                                                                             </subviews>
                                                                             <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         </view>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acS-ld-cCk">
-                                                                            <rect key="frame" x="304" y="18" width="90" height="21"/>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rating" translatesAutoresizingMaskIntoConstraints="NO" id="d4p-7J-dsd">
+                                                                            <rect key="frame" x="363" y="31" width="32" height="41"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Rating" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acS-ld-cCk">
+                                                                            <rect key="frame" x="293" y="43" width="76" height="17"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Wz5-Ra-SdT">
-                                                                            <rect key="frame" x="269" y="39" width="125" height="25"/>
-                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                            <subviews>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starEnabled" translatesAutoresizingMaskIntoConstraints="NO" id="ez2-zy-XTH">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
-                                                                                </imageView>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starEnabled" translatesAutoresizingMaskIntoConstraints="NO" id="pDu-d1-vgz">
-                                                                                    <rect key="frame" x="25" y="0.0" width="25" height="25"/>
-                                                                                </imageView>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starEnabled" translatesAutoresizingMaskIntoConstraints="NO" id="p1A-Dv-Ld8">
-                                                                                    <rect key="frame" x="50" y="0.0" width="25" height="25"/>
-                                                                                </imageView>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starEnabled" translatesAutoresizingMaskIntoConstraints="NO" id="3AK-1e-0QG">
-                                                                                    <rect key="frame" x="75" y="0.0" width="25" height="25"/>
-                                                                                </imageView>
-                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starEnabled" translatesAutoresizingMaskIntoConstraints="NO" id="EuP-Wz-dRk">
-                                                                                    <rect key="frame" x="100" y="0.0" width="25" height="25"/>
-                                                                                </imageView>
-                                                                            </subviews>
-                                                                        </stackView>
                                                                     </subviews>
                                                                 </tableViewCellContentView>
                                                                 <connections>
                                                                     <outlet property="followButton" destination="Va3-BU-cK2" id="6An-w8-E9u"/>
-                                                                    <outlet property="reviewerRatingStars" destination="Wz5-Ra-SdT" id="8XS-Fq-Dv1"/>
                                                                     <outlet property="userComment" destination="mH1-sg-spR" id="Evu-hR-4O3"/>
                                                                     <outlet property="userImage" destination="wT2-rc-cXe" id="t8E-ax-dcF"/>
                                                                     <outlet property="userName" destination="R3I-Gz-1ez" id="Ktd-LI-Rzq"/>
@@ -351,7 +329,6 @@ Hollows</string>
         <image name="bookDetail1" width="414" height="363"/>
         <image name="rating" width="26" height="19"/>
         <image name="starDisabled" width="25" height="25"/>
-        <image name="starEnabled" width="25" height="25"/>
         <image name="user0" width="100" height="100"/>
     </resources>
     <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

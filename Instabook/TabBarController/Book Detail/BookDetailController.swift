@@ -10,6 +10,9 @@ import UIKit
 
 class BookDetailController: UIViewController , UITextFieldDelegate{
     
+    
+    
+    
     @IBOutlet weak var tableViewReview: UITableView!
     @IBOutlet weak var ratingValue: UILabel!
     @IBOutlet weak var authorName: UILabel!
@@ -61,10 +64,10 @@ class BookDetailController: UIViewController , UITextFieldDelegate{
     
     @IBAction func addComment(_ sender: Any) {
         if(addComment.text != ""){
-            nameArr.append("Patrick")
-            userImageArr.append(#imageLiteral(resourceName: "profile"))
-            reviewArr.append(addComment.text!)
-            ratingArr.append(ratingStackView.starsRating)
+            nameArr.insert("Patrick", at: 0)
+            userImageArr.insert(#imageLiteral(resourceName: "profile"), at: 0)
+            reviewArr.insert(addComment.text!, at: 0)
+            ratingArr.insert(ratingStackView.starsRating, at: 0)
             reviews = createArray()
             tableViewReview.reloadData()
         }
