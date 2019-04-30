@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513599CA22760EA500AC8DF9 /* PresistenceService.swift */; };
+		513799FA22782C2900D9C08A /* HaveReadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513799F722782C2900D9C08A /* HaveReadButton.swift */; };
+		513799FB22782C2900D9C08A /* FollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513799F822782C2900D9C08A /* FollowButton.swift */; };
+		513799FC22782C2900D9C08A /* BookmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513799F922782C2900D9C08A /* BookmarkButton.swift */; };
 		515B6DD02272E80200439D38 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DCF2272E80200439D38 /* FeedView.swift */; };
 		515B6DD52272F59700439D38 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B6DD42272F59700439D38 /* iCarousel.m */; };
 		515B6DE32273170D00439D38 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B6DE22273170D00439D38 /* Home.storyboard */; };
@@ -54,6 +57,9 @@
 
 /* Begin PBXFileReference section */
 		513599CA22760EA500AC8DF9 /* PresistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresistenceService.swift; sourceTree = "<group>"; };
+		513799F722782C2900D9C08A /* HaveReadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaveReadButton.swift; sourceTree = "<group>"; };
+		513799F822782C2900D9C08A /* FollowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowButton.swift; sourceTree = "<group>"; };
+		513799F922782C2900D9C08A /* BookmarkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkButton.swift; sourceTree = "<group>"; };
 		515B6DCF2272E80200439D38 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		515B6DD22272F59600439D38 /* Instabook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instabook-Bridging-Header.h"; sourceTree = "<group>"; };
 		515B6DD32272F59700439D38 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -136,6 +142,9 @@
 		515B6DD12272E80B00439D38 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				513799F922782C2900D9C08A /* BookmarkButton.swift */,
+				513799F822782C2900D9C08A /* FollowButton.swift */,
+				513799F722782C2900D9C08A /* HaveReadButton.swift */,
 				515B6DD32272F59700439D38 /* iCarousel.h */,
 				515B6DD42272F59700439D38 /* iCarousel.m */,
 				B938932D22772981003E581D /* AddReviewSection.swift */,
@@ -381,16 +390,19 @@
 			files = (
 				51B28EEE227720200096AE5B /* CommentViewCell.swift in Sources */,
 				B938932C22772907003E581D /* ReviewCell.swift in Sources */,
+				513799FB22782C2900D9C08A /* FollowButton.swift in Sources */,
 				51B28EED227720200096AE5B /* CommentViewController.swift in Sources */,
 				5183DDE12271A97B006FA0E9 /* AppDelegate.swift in Sources */,
 				5183DE212271D5FD006FA0E9 /* TabBarController.swift in Sources */,
 				B938932622772764003E581D /* HomeViewController.swift in Sources */,
 				B938932A22772907003E581D /* BookDetailController.swift in Sources */,
+				513799FA22782C2900D9C08A /* HaveReadButton.swift in Sources */,
 				51B28EF3227720C30096AE5B /* sebaca.xcdatamodeld in Sources */,
 				5183DE232271DE42006FA0E9 /* AnimUtils.swift in Sources */,
 				51B28EEF227720200096AE5B /* Comment.swift in Sources */,
 				B938933222776334003E581D /* RatingController.swift in Sources */,
 				B938932B22772907003E581D /* Review.swift in Sources */,
+				513799FC22782C2900D9C08A /* BookmarkButton.swift in Sources */,
 				515B6DD52272F59700439D38 /* iCarousel.m in Sources */,
 				513599CB22760EA500AC8DF9 /* PresistenceService.swift in Sources */,
 				B938932E22772981003E581D /* AddReviewSection.swift in Sources */,

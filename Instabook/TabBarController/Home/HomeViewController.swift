@@ -23,6 +23,7 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var saveBtn: UIButton!
     
     var imageIndex = 0
+    var followed:Bool = false
     
     var imgArr = [  UIImage(named:"book0"),
                     UIImage(named:"book1") ,
@@ -44,15 +45,6 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
 //        commentField.rightView = rightImage
 //        commentField.rightViewMode = .always
         
-        haveReadBtn.layer.borderWidth = 2
-        haveReadBtn.layer.borderColor = #colorLiteral(red: 0.218891561, green: 0.5776638985, blue: 0.866191566, alpha: 1)
-        
-        saveBtn.layer.borderWidth = 2
-        saveBtn.layer.borderColor = #colorLiteral(red: 0.218891561, green: 0.5776638985, blue: 0.866191566, alpha: 1)
-        
-        let image = UIImage(named: "save")?.withRenderingMode(.alwaysTemplate)
-        saveBtn.setImage(image, for: .normal)
-        saveBtn.imageView!.tintColor = #colorLiteral(red: 0.218891561, green: 0.5776638985, blue: 0.866191566, alpha: 1)
         
         profileImage.layer.cornerRadius = profileImage.frame.size.width/2
         
@@ -98,7 +90,8 @@ class HomeViewController: UIViewController, UITextFieldDelegate {
         self.view.frame = self.view.frame.offsetBy(dx: 0, dy: movement)
         UIView.commitAnimations()
     }
-
+    
+    
 }
 
 extension HomeViewController: iCarouselDelegate, iCarouselDataSource {
